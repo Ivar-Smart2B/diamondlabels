@@ -1,11 +1,8 @@
-# ESC/Label Renderer (Vercel)
+# Diamondlabels Editor (Prototype)
 
-## Endpoint
-POST `/api/render`
+Een fullscreen WYSIWYG canvas label-editor met react-konva.
 
-## JSON Input Example
-
-See `data/testlabel.json` for format.
-
-## Frontend
-Open `/` in your browser to test rendering.
+## Instructies
+- Upload in Vercel als Next.js project.
+- Voeg `/public/logo.png` toe met het Diamondlabels-logo.
+- Zie `pages/index.js` en `components/CanvasEditor.js`
