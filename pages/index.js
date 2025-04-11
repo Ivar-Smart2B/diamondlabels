@@ -1,15 +1,15 @@
 import dynamic from "next/dynamic";
 import Head from "next/head";
 
-const CanvasEditor = dynamic(() => import("../components/CanvasEditor"), { ssr: false });
+const Editor = dynamic(() => import("../components/Editor"), { ssr: false });
 
 export default function Home() {
   return (
     <>
       <Head>
-        <title>Diamondlabels Editor</title>
+        <title>Diamondlabels Label Editor</title>
       </Head>
-      <CanvasEditor />
+      <Editor />
     </>
   );
 }

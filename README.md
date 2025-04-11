@@ -1,8 +1,11 @@
-# Diamondlabels Editor (Prototype)
+# Diamondlabels Full Editor (Prototype)
 
-Een fullscreen WYSIWYG canvas label-editor met react-konva.
+Een visuele label editor met ondersteuning voor:
+- Drag & drop
+- Tekst, vormen, afbeeldingen
+- Thema wisselen (licht/donker)
 
-## Instructies
-- Upload in Vercel als Next.js project.
-- Voeg `/public/logo.png` toe met het Diamondlabels-logo.
-- Zie `pages/index.js` en `components/CanvasEditor.js`
+## Installatie
+1. Upload naar je GitHub-repo
+2. Koppel aan Vercel als Next.js app
+3. Voeg je echte logo toe als /public/logo.png

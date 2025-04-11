@@ -1,5 +1,5 @@
 {
-  "name": "diamondlabels-editor",
+  "name": "diamondlabels-full-editor",
   "version": "1.0.0",
   "type": "module",
   "scripts": {
@@ -8,10 +8,11 @@
     "start": "next start"
   },
   "dependencies": {
+    "konva": "^9.2.0",
     "next": "13.4.12",
     "react": "18.2.0",
     "react-dom": "18.2.0",
     "react-konva": "^18.0.3",
-    "konva": "^9.2.0"
+    "use-image": "^1.0.0"
   }
 }
